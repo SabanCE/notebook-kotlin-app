@@ -1,5 +1,45 @@
-Not Defteri Android UygulamasıBu proje, kullanıcıların hızlı ve kolay bir şekilde notlar oluşturmasına, düzenlemesine ve silmesine olanak tanıyan basit bir Android not defteri uygulamasıdır. Kotlin dilinde ve modern Android geliştirme pratikleri kullanılarak geliştirilmiştir.✨ Özellikler•Not Oluşturma: Kullanıcılar yeni notlar ekleyebilir.•Not Düzenleme: Mevcut notların başlığı ve içeriği güncellenebilir.•Not Silme: Artık ihtiyaç duyulmayan notlar kolayca silinebilir.•Otomatik Kaydetme: Geri tuşuna basıldığında veya not detay ekranından çıkıldığında değişiklikler otomatik olarak kaydedilir.•Modern Arayüz: RecyclerView ve Material Design bileşenleri ile temiz ve kullanıcı dostu bir arayüz sunar.•Yerel Veri Depolama: Notlar, cihazın yerel veritabanında (SQLite) saklanır.ekran görüntüleri(Buraya uygulamanızın ana ekranı, not detay ekranı gibi birkaç ekran görüntüsü ekleyebilirsiniz. Bu, projenizin nasıl göründüğünü göstermenin en iyi yollarından biridir.)Örnek: | Ana Ekran | Not Detay Ekranı | | :---: | :---: | | Ana Ekran | Not Detay |🛠️ Kullanılan Teknolojiler ve Kütüphaneler•Programlama Dili: Kotlin•Mimari: Temel MVVM (Model-View-ViewModel) prensipleri•Asenkron Programlama: Coroutines•Veritabanı: SQLite•Arayüz Bileşenleri:◦AppCompat◦Material Components for Android◦RecyclerView◦ViewBinding🚀 Kurulum ve Çalıştırma1.Bu depoyu (repository) klonlayın:Kotlingit clone https://github.com/KULLANICI_ADINIZ/NotDefteri.git2.Projeyi Android Studio'da açın.3.Gerekli Gradle bağımlılıklarının indirilmesini bekleyin.4.Uygulamayı bir emülatörde veya fiziksel bir Android cihazda çalıştırın.LisansBu proje MIT Lisansı ile lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasına göz atın.
+# 📝 Not Defteri Android Uygulaması
 
+Bu proje, kullanıcıların hızlı ve kolay bir şekilde notlar oluşturmasına, düzenlemesine ve silmesine olanak tanıyan basit bir **Android not defteri uygulamasıdır.**  
+Kotlin diliyle ve modern Android geliştirme pratikleriyle geliştirilmiştir.
 
-app/src/main/res/drawable/anaekran.png
-app/src/main/res/drawable/ikinciekran.png
+---
+
+## ✨ Özellikler
+
+- 🆕 **Not Oluşturma:** Kullanıcılar yeni notlar ekleyebilir.  
+- ✏️ **Not Düzenleme:** Mevcut notların başlığı ve içeriği güncellenebilir.  
+- 🗑️ **Not Silme:** Artık ihtiyaç duyulmayan notlar kolayca silinebilir.  
+- 💾 **Otomatik Kaydetme:** Geri tuşuna basıldığında veya not detay ekranından çıkıldığında değişiklikler otomatik olarak kaydedilir.  
+- 🎨 **Modern Arayüz:** `RecyclerView` ve Material Design bileşenleri ile temiz ve kullanıcı dostu bir arayüz sunar.  
+- 🗃️ **Yerel Veri Depolama:** Notlar, cihazın yerel veritabanında (**SQLite**) saklanır.
+
+---
+
+## 📱 Ekran Görüntüleri
+
+| Ana Ekran | Not Detay Ekranı |
+|:---:|:---:|
+| ![Ana Ekran](app/src/main/res/drawable/anaekran.png) | ![Not Detay](app/src/main/res/drawable/ikinciekran.png) |
+
+---
+
+## 🛠️ Kullanılan Teknolojiler ve Kütüphaneler
+
+- **Programlama Dili:** Kotlin  
+- **Mimari:** Temel **MVVM (Model-View-ViewModel)** prensipleri  
+- **Asenkron Programlama:** Kotlin **Coroutines**  
+- **Veritabanı:** SQLite  
+- **Arayüz Bileşenleri:**
+  - AppCompat  
+  - Material Components for Android  
+  - RecyclerView  
+  - ViewBinding  
+
+---
+
+## 🚀 Kurulum ve Çalıştırma
+
+1. Bu depoyu klonlayın:  
+   ```bash
+   git clone https://github.com/KULLANICI_ADINIZ/NotDefteri.git
